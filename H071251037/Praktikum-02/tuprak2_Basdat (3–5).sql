@@ -13,3 +13,7 @@ LIMIT 7;
 -- Soal nomor 5
 SELECT DISTINCT country as "Negara Pelanggan" FROM customers
 ORDER BY country ASC OFFSET 5 LIMIT 5;
+
+-- Soal tambahan
+SELECT DISTINCT country as "Negara Pelanggan" FROM customers
+ORDER BY country DESC OFFSET 18 LIMIT 3;
